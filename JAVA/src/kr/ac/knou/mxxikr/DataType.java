@@ -19,6 +19,7 @@ public class DataType {
 		System.out.println(c.radius);
 		System.out.println(Literal.nConst);
 		System.out.println(f);
+		System.out.println("j=" + 10);
 	}
 
 }
