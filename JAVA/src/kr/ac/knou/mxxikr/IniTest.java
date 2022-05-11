@@ -13,6 +13,6 @@ class IniTest {
 
 	public static void main(String[] args) {
 		IniTest n = new IniTest(); // 생성자 호출을 통해 초기화 실행
-		System.out.println(n.nValue); // 생성자를 통해 초기화된 3 출력
+		System.out.println(IniTest.nValue); // 생성자를 통해 초기화된 3 출력
 	}
 }
