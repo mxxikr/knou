@@ -7,6 +7,7 @@ class CircleCalc2 { // 클래스 이름과 생성자 이름이 같음
 	}
 	
 	public double getArea() {
-		return r * r * 3.14;
+//		return r * r * 3.14;
+		return this.r * this.r * 3.14;
 	}
 }
