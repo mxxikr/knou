@@ -23,5 +23,9 @@ public class ClassFromGeneric {
 		MyPair mp = new MyPair("test", 1);
 		System.out.println(mp.getKey());
 		System.out.println(mp.getValue());
+
+		Data2 data = new Data2("hello");
+		System.out.println(data);
+
 	}
 }
