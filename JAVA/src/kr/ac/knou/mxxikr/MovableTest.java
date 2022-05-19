@@ -1,7 +1,7 @@
 package kr.ac.knou.mxxikr;
 
 interface Movable {
-	void moveUp(); // public Ãß»ó ¸Ş¼Òµå
+	void moveUp(); // public ì¶”ìƒ ë©”ì†Œë“œ
 
 	void moveDown();
 
@@ -12,18 +12,18 @@ interface Movable {
 
 public class MovableTest {
 	public static void main(String[] args) {
-		Movable m1 = new MovablePoint(5, 5); // MovablePoint Å¬·¡½ºÀÇ °´Ã¼ »ı¼º
+		Movable m1 = new MovablePoint(5, 5); // MovablePoint í´ë˜ìŠ¤ì˜ ê°ì²´ ìƒì„±
 
-		System.out.println(m1); // m1.toString ÀÚµ¿ È£Ãâ
+		System.out.println(m1); // m1.toString ìë™ í˜¸ì¶œ
 
-		m1.moveUp(); // y ÁÂÇ¥ Áõ°¡
+		m1.moveUp(); // y ì¢Œí‘œ ì¦ê°€
 		System.out.println(m1);
 
-		m1.moveRight(); // x ÁÂÇ¥ Áõ°¡
+		m1.moveRight(); // x ì¢Œí‘œ ì¦ê°€
 		System.out.println(m1);
 	}
 }
-// Ãâ·Â °á°ú
+// ì¶œë ¥ ê²°ê³¼
 // Point at (5, 5)
 // Point at (5, 6)
 // Point at (6, 6)

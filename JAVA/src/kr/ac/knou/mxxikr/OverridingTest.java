@@ -1,16 +1,16 @@
 package kr.ac.knou.mxxikr;
 
-class Shape { // ºÎ¸ğ Å¬·¡½º
+class Shape { // ë¶€ëª¨ í´ë˜ìŠ¤
 	public double getArea(double h, double w) { return h * w; }
 }
 
-class Triangle extends Shape { // ÀÚ½Ä Å¬·¡½º
+class Triangle extends Shape { // ìì‹ í´ë˜ìŠ¤
 	public double getArea(double h, double w) { return h * w * 0.5; }
-} // getArea ¸Ş¼Òµå ÀçÁ¤ÀÇ -> ¸Ş¼Òµå ¿À¹ö¶óÀÌµù
+} // getArea ë©”ì†Œë“œ ì¬ì •ì˜ -> ë©”ì†Œë“œ ì˜¤ë²„ë¼ì´ë”©
 
 public class OverridingTest {
 	public static void main(String args[]) {
-		Triangle t = new Triangle(); // Shape ÀÚ½Ä Å¬·¡½º Triangle °´Ã¼ »ı¼º
-		System.out.println(t.getArea(3.0, 4.0)); // 3.0 * 4.0 * 0.5 = 6.0 Ãâ·Â
+		Triangle t = new Triangle(); // Shape ìì‹ í´ë˜ìŠ¤ Triangle ê°ì²´ ìƒì„±
+		System.out.println(t.getArea(3.0, 4.0)); // 3.0 * 4.0 * 0.5 = 6.0 ì¶œë ¥
 	}
 }

@@ -1,6 +1,6 @@
 package kr.ac.knou.mxxikr;
 
-abstract public class ShapeAbstract { // Ãß»ó Å¬·¡½º
-	// ¸ğ¾çÀÌ Á¤ÇØÁöÁö ¾Ê¾Ò±â ¶§¹®¿¡ ¸éÀû °è»ê ºÒ°¡
-	abstract public double getArea(); // Ãß»ó ¸Ş¼Òµå
+abstract public class ShapeAbstract { // ì¶”ìƒ í´ë˜ìŠ¤
+	// ëª¨ì–‘ì´ ì •í•´ì§€ì§€ ì•Šì•˜ê¸° ë•Œë¬¸ì— ë©´ì  ê³„ì‚° ë¶ˆê°€
+	abstract public double getArea(); // ì¶”ìƒ ë©”ì†Œë“œ
 }

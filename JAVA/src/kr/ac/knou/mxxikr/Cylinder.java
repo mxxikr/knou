@@ -1,15 +1,15 @@
 package kr.ac.knou.mxxikr;
 
 class Cylinder {
-	private CircleCalc c; // ¿ø (Circle Å¬·¡½º º¯¼ö Á¤ÀÇ)
-	private int h; // ³ôÀÌ
+	private CircleCalc c; // ì› (Circle í´ë˜ìŠ¤ ë³€ìˆ˜ ì •ì˜)
+	private int h; // ë†’ì´
 	
-	public Cylinder(CircleCalc a, int b) { // ÀÎÀÚ µÎ°³ÀÎ »ı¼ºÀÚ
+	public Cylinder(CircleCalc a, int b) { // ì¸ì ë‘ê°œì¸ ìƒì„±ì
 		c = a;
 		h = b;
 	}
 	
-	public double getVolume() { // ¿øÅë ³ĞÀÌ ±¸ÇÏ´Â ¸Ş¼Òµå
+	public double getVolume() { // ì›í†µ ë„“ì´ êµ¬í•˜ëŠ” ë©”ì†Œë“œ
 		return c.getArea() * h;
 	}
 }

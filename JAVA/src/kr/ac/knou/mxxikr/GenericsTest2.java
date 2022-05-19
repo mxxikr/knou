@@ -4,7 +4,7 @@ public class GenericsTest2 {
 	public static void main(String args[ ]) {
 		Data2<String> data = new Data2<String>( );
 		Integer i = new Integer(20);
-//		data.set((String)i); //ÄÄÆÄÀÏ ¿À·ù
+//		data.set((String)i); // ì»´íŒŒì¼ ì˜¤ë¥˜
 		String s = new String("String s");
 		data.set(s);
 		String string = (String) data.get();

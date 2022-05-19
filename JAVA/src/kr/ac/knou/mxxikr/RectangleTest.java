@@ -4,19 +4,19 @@ import java.awt.Point;
 
 public class RectangleTest {
 	public static void main(String args[]) {
-		Point originOne = new Point(23, 94); // Point Å¬·¡½º¿¡ x¿Í yÁÂÇ¥°ªÀ» ÀúÀåÇÏ±â À§ÇÑ ¸â¹ö º¯¼ö Á¸Àç
+		Point originOne = new Point(23, 94); // Point í´ë˜ìŠ¤ì— xì™€ yì¢Œí‘œê°’ì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë©¤ë²„ ë³€ìˆ˜ ì¡´ì¬
 		
-		Rectangle rectOne = new Rectangle(originOne, 100, 200); // ¸Å°³º¯¼ö°¡ 3°³ÀÎ Rectangle °´Ã¼ »ı¼º
-		Rectangle rectTwo = new Rectangle(); // ¸Å°³º¯¼ö°¡ ¾ø´Â Rectangle °´Ã¼ »ı¼º
+		Rectangle rectOne = new Rectangle(originOne, 100, 200); // ë§¤ê°œë³€ìˆ˜ê°€ 3ê°œì¸ Rectangle ê°ì²´ ìƒì„±
+		Rectangle rectTwo = new Rectangle(); // ë§¤ê°œë³€ìˆ˜ê°€ ì—†ëŠ” Rectangle ê°ì²´ ìƒì„±
 		Rectangle rectThree = new Rectangle(rectTwo.origin, 200, 300);
 		
-		System.out.println("rectOne origin: "+ rectOne.origin); // Rectangle(Point p, int w, int h) »ı¼ºÀÚ È£Ãâ
+		System.out.println("rectOne origin: "+ rectOne.origin); // Rectangle(Point p, int w, int h) ìƒì„±ì í˜¸ì¶œ
 		System.out.println("rectOne width: "+ rectOne.width);
 		System.out.println("rectOne height: "+ rectOne.height + "\n");
 
-		System.out.println("rectTwo origin: "+ rectTwo.origin + "\n"); // Rectangle() »ı¼ºÀÚ È£Ãâ
+		System.out.println("rectTwo origin: "+ rectTwo.origin + "\n"); // Rectangle() ìƒì„±ì í˜¸ì¶œ
 
-		System.out.println("rectThree origin: "+ rectThree.origin); // Rectangle(Point p, int w, int h) »ı¼ºÀÚ È£Ãâ
+		System.out.println("rectThree origin: "+ rectThree.origin); // Rectangle(Point p, int w, int h) ìƒì„±ì í˜¸ì¶œ
 		System.out.println("rectThree width: "+ rectThree.width); 
 		System.out.println("rectThree height: "+ rectThree.height);
 	}

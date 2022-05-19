@@ -3,9 +3,9 @@ package kr.ac.knou.mxxikr;
 public class CircleArea {
 
 	public static void main(String[] args) {
-		CircleCalc c = new CircleCalc(5); // CircleArea2¿Í Circle Å¬·¡½º°¡ °°Àº ÆĞÅ°Áö ¾È¿¡ ÀÖÀ» °æ¿ì »ç¿ë °¡´É
-//		System.out.println(c.r); // private µ¥ÀÌÅÍ ÇÊµå±â ¶§¹®¿¡ ¿À·ù ¹ß»ı
-		System.out.println(c.getRadius());  // r À» ¸®ÅÏ°ªÀ¸·Î °¡Áö°í ÀÖ´Â getRadius ¸Ş¼Òµå È£ÃâÇØ »ç¿ë
+		CircleCalc c = new CircleCalc(5); // CircleArea2ì™€ Circle í´ë˜ìŠ¤ê°€ ê°™ì€ íŒ¨í‚¤ì§€ ì•ˆì— ìˆì„ ê²½ìš° ì‚¬ìš© ê°€ëŠ¥
+//		System.out.println(c.r); // private ë°ì´í„° í•„ë“œê¸° ë•Œë¬¸ì— ì˜¤ë¥˜ ë°œìƒ
+		System.out.println(c.getRadius());  // r ì„ ë¦¬í„´ê°’ìœ¼ë¡œ ê°€ì§€ê³  ìˆëŠ” getRadius ë©”ì†Œë“œ í˜¸ì¶œí•´ ì‚¬ìš©
 		System.out.println(c.getArea( ));
 	}
 

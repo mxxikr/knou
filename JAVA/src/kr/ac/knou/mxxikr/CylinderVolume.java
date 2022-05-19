@@ -2,9 +2,9 @@ package kr.ac.knou.mxxikr;
 
 public class CylinderVolume {
 	public static void main(String args[]) {
-		CircleCalc c = new CircleCalc(7); // CircleCalc »ı¼ºÀÚ ÀÌ¿ëÇØ °´Ã¼ »ı¼º
+		CircleCalc c = new CircleCalc(7); // CircleCalc ìƒì„±ì ì´ìš©í•´ ê°ì²´ ìƒì„±
 		int h = 8;
-		Cylinder cy = new Cylinder(c, h); // Cylinder »ı¼ºÀÚ ÀÌ¿ëÇØ °´Ã¼ »ı¼º c=c, h=h
+		Cylinder cy = new Cylinder(c, h); // Cylinder ìƒì„±ì ì´ìš©í•´ ê°ì²´ ìƒì„± c=c, h=h
 		System.out.println(cy.getVolume()); // c * c * 3.14 * h
 	}
 }

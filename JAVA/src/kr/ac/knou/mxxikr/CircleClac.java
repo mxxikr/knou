@@ -1,14 +1,14 @@
 package kr.ac.knou.mxxikr;
 
 class CircleCalc {
-	private double r; // µ¥ÀÌÅÍ ÇÊµå ¼±¾ð ½Ã¿¡ Á¢±ÙÁ¦¾îÀÚ »ç¿ë °¡´É
-	// r Àº Circle Å¬·¡½º ¾È¿¡¼­¸¸ »ç¿ë °¡´É
+	private double r; // ë°ì´í„° í•„ë“œ ì„ ì–¸ ì‹œì— ì ‘ê·¼ì œì–´ìž ì‚¬ìš© ê°€ëŠ¥
+	// r ì€ Circle í´ëž˜ìŠ¤ ì•ˆì—ì„œë§Œ ì‚¬ìš© ê°€ëŠ¥
 
-	public CircleCalc(double a) { // ¸Þ¼Òµå ¼±¾ð ½Ã¿¡ Á¢±ÙÁ¦¾îÀÚ »ç¿ë °¡´É
+	public CircleCalc(double a) { // ë©”ì†Œë“œ ì„ ì–¸ ì‹œì— ì ‘ê·¼ì œì–´ìž ì‚¬ìš© ê°€ëŠ¥
 		r = a;
 	}
 
-	public CircleCalc() { // ¸Þ¼Òµå ¼±¾ð ½Ã¿¡ Á¢±ÙÁ¦¾îÀÚ »ç¿ë °¡´É
+	public CircleCalc() { // ë©”ì†Œë“œ ì„ ì–¸ ì‹œì— ì ‘ê·¼ì œì–´ìž ì‚¬ìš© ê°€ëŠ¥
 		r = 3;
 	}
 

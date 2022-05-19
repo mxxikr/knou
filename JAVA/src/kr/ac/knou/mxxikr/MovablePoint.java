@@ -1,9 +1,9 @@
 package kr.ac.knou.mxxikr;
 
-class MovablePoint implements Movable { // Movable ÀÎÅÍÆäÀÌ½º »ó¼Ó ¹Ş¾Æ Å¬·¡½º »ı¼º
-	private int x, y; // µ¥ÀÌÅÍ ÇÊµå
+class MovablePoint implements Movable { // Movable ì¸í„°í˜ì´ìŠ¤ ìƒì† ë°›ì•„ í´ë˜ìŠ¤ ìƒì„±
+	private int x, y; // ë°ì´í„° í•„ë“œ
 
-	public MovablePoint(int x, int y) { // »ı¼ºÀÚ¿¡¼­ x, y ÁÂÇ¥ ÃÊ±âÈ­
+	public MovablePoint(int x, int y) { // ìƒì„±ìì—ì„œ x, y ì¢Œí‘œ ì´ˆê¸°í™”
 		this.x = x;
 		this.y = y;
 	}
@@ -12,7 +12,7 @@ class MovablePoint implements Movable { // Movable ÀÎÅÍÆäÀÌ½º »ó¼Ó ¹Ş¾Æ Å¬·¡½º »
 		return "Point at (" + x + "," + y + ")";
 	}
 
-// Movable ÀÎÅÍÆäÀÌ½ºÀÇ Ãß»ó ¸Ş¼Òµå ¸öÃ¼ ±¸Çö
+// Movable ì¸í„°í˜ì´ìŠ¤ì˜ ì¶”ìƒ ë©”ì†Œë“œ ëª¸ì²´ êµ¬í˜„
 	public void moveUp() {
 		y++;
 	}

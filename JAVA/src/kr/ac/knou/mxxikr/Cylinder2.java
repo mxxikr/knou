@@ -4,12 +4,12 @@ public class Cylinder2 extends CircleCalc {
 	private double height;
 
 	public Cylinder2() {
-		super(); // ºÎ¸ğÅ¬·¡½ºÀÇ »ı¼ºÀÚ ÃÊ±âÈ­ r = 3
+		super(); // ë¶€ëª¨í´ë˜ìŠ¤ì˜ ìƒì„±ì ì´ˆê¸°í™” r = 3
 		height = 1.0;
 	}
 
 	public Cylinder2(double radius, double h) {
-		super(radius); // double°ªÀ» °¡Áö´Â ÀÎÀÚ·Î ºÎ¸ğÅ¬·¡½ºÀÇ »ı¼ºÀÚ ÃÊ±âÈ­
+		super(radius); // doubleê°’ì„ ê°€ì§€ëŠ” ì¸ìë¡œ ë¶€ëª¨í´ë˜ìŠ¤ì˜ ìƒì„±ì ì´ˆê¸°í™”
 		this.height = h;
 	}
 
@@ -21,12 +21,12 @@ public class Cylinder2 extends CircleCalc {
 		this.height = h;
 	}
 
-	public double getArea() { // CylinderÀÇ getArea() ¸Ş¼Òµå
-		return 2 * 3.14 * getRadius() * height + 2 * super.getArea(); // »ó¼Ó¹ŞÀº Å¬·¡½ºÀÇ getArea() È£Ãâ
+	public double getArea() { // Cylinderì˜ getArea() ë©”ì†Œë“œ
+		return 2 * 3.14 * getRadius() * height + 2 * super.getArea(); // ìƒì†ë°›ì€ í´ë˜ìŠ¤ì˜ getArea() í˜¸ì¶œ
 	}
 
 	public double getVolume() {
-		return super.getArea() * height; // CircleÀÇ getArea() ¸Ş¼Òµå È£Ãâ
+		return super.getArea() * height; // Circleì˜ getArea() ë©”ì†Œë“œ í˜¸ì¶œ
 	}
 
 	public String toString() {

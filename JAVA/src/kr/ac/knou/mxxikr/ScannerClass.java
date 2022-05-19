@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ScannerClass {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in); // ÀÎÀÚ·Î Ç¥ÁØ ÀÔ·Â ÀÌ¿ëÇØ °´Ã¼ »ı¼º
+		Scanner sc = new Scanner(System.in); // ì¸ìë¡œ í‘œì¤€ ì…ë ¥ ì´ìš©í•´ ê°ì²´ ìƒì„±
 		String name = sc.next();
 		System.out.println(name);
 	}

@@ -1,12 +1,12 @@
 package kr.ac.knou.mxxikr;
 
-class CircleCalc2 { // Å¬·¡½º ÀÌ¸§°ú »ı¼ºÀÚ ÀÌ¸§ÀÌ °°À½
+class CircleCalc2 { // í´ë˜ìŠ¤ ì´ë¦„ê³¼ ìƒì„±ì ì´ë¦„ì´ ê°™ìŒ
 	static int count;
-	final static double PI = 3.141592; // »ó¼ö µ¥ÀÌÅÍ ¼±¾ğ
+	final static double PI = 3.141592; // ìƒìˆ˜ ë°ì´í„° ì„ ì–¸
 	double r;
 	
-	public CircleCalc2(double a) { // »ı¼ºÀÚ Á¤ÀÇ
-		r = a; // ¹İÈ¯Çü Á¸ÀçÇÏÁö¾ÊÀ½
+	public CircleCalc2(double a) { // ìƒì„±ì ì •ì˜
+		r = a; // ë°˜í™˜í˜• ì¡´ì¬í•˜ì§€ì•ŠìŒ
 	}
 	
 	public double getArea() {

@@ -1,9 +1,9 @@
 package kr.ac.knou.mxxikr;
 
 public class CommandInputTest {
-	public static void main(String args[]) { // ¸Å°³º¯¼ö ºóÄ­À¸·Î ±¸ºĞ
+	public static void main(String args[]) { // ë§¤ê°œë³€ìˆ˜ ë¹ˆì¹¸ìœ¼ë¡œ êµ¬ë¶„
 		System.out.println(args[0]);
-		int n = Integer.parseInt(args[1]); // ¹®ÀÚ¿­À» integer Çü½ÄÀ¸·Î º¯È¯
+		int n = Integer.parseInt(args[1]); // ë¬¸ìì—´ì„ integer í˜•ì‹ìœ¼ë¡œ ë³€í™˜
 		System.out.println(n);
 	}
 }

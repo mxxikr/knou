@@ -3,12 +3,12 @@ package kr.ac.knou.mxxikr;
 public class InheritTest {
 	public static void main(String args[]) {
 		CSub sub = new CSub();
-//		sub.f1 = 40; // ºÎ¸ğ Å¬·¡½º CSuperÀÇ private º¯¼ö f1À» È£ÃâÇØ ¿À·ù ¹ß»ı
+//		sub.f1 = 40; // ë¶€ëª¨ í´ë˜ìŠ¤ CSuperì˜ private ë³€ìˆ˜ f1ì„ í˜¸ì¶œí•´ ì˜¤ë¥˜ ë°œìƒ
 		sub.f2 = 50;
-//		sub.f3 = 60; // CSub Å¬·¡½ºÀÇ private º¯¼ö f3À» È£ÃâÇØ ¿À·ù ¹ß»ı
+//		sub.f3 = 60; // CSub í´ë˜ìŠ¤ì˜ private ë³€ìˆ˜ f3ì„ í˜¸ì¶œí•´ ì˜¤ë¥˜ ë°œìƒ
 		sub.f4 = 70;
 		sub.setPrivate();
 		sub.setPublic();
-//		sub.mPrivate(); // ºÎ¸ğ Å¬·¡½º CSuperÀÇ private ¸Ş¼Òµå È£ÃâÇØ ¿À·ù ¹ß»ı
+//		sub.mPrivate(); // ë¶€ëª¨ í´ë˜ìŠ¤ CSuperì˜ private ë©”ì†Œë“œ í˜¸ì¶œí•´ ì˜¤ë¥˜ ë°œìƒ
 	}
 }

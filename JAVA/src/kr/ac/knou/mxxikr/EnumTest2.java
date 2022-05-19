@@ -1,12 +1,12 @@
 package kr.ac.knou.mxxikr;
 
 enum BaseballTeam {
-	LG(40, 30), SS(30, 40), KT(20, 50),	SK(35, 35), NC(55, 15); // »ó¼ö °ª ¼±¾ð
+	LG(40, 30), SS(30, 40), KT(20, 50),	SK(35, 35), NC(55, 15); // ìƒìˆ˜ ê°’ ì„ ì–¸
 
-	private final int win; // µ¥ÀÌÅÍ ÇÊµå ¼±¾ð
+	private final int win; // ë°ì´í„° í•„ë“œ ì„ ì–¸
 	private final int lose;
 
-	private BaseballTeam(int win, int	lose) { // »ý¼ºÀÚ
+	private BaseballTeam(int win, int	lose) { // ìƒì„±ìž
 		this.win = win; 
 		this.lose = lose;
 	}
@@ -20,6 +20,6 @@ public class EnumTest2 {
 	public static void main(String args[ ]) {
 		BaseballTeam bt = BaseballTeam.LG;
 
-		System.out.println(bt.winsRate( )); // win = 40, lose 30°ª ´ëÀÔ -> 4000 / 70
+		System.out.println(bt.winsRate( )); // win = 40, lose 30ê°’ ëŒ€ìž… -> 4000 / 70
 	}
 }

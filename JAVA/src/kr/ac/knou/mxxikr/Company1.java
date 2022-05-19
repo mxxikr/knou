@@ -2,15 +2,15 @@ package kr.ac.knou.mxxikr;
 
 public class Company1 {
 	public static void main(String args[]) {
-		Employee emp1, emp2; // Å¬·¡½º °´Ã¼ º¯¼ö Á¤ÀÇ
+		Employee emp1, emp2; // í´ë˜ìŠ¤ ê°ì²´ ë³€ìˆ˜ ì •ì˜
 
 		emp1 = new Sales();
 		emp2 = new Development();
 
-		emp1.doJob(); // EmployeeÀÇ doJob ¸Ş¼Òµå Á¸Àç È®ÀÎ ÈÄ Sales Å¬·¡½ºÀÇ doJob ¸Ş¼Òµå È£Ãâ
-		emp2.doJob(); // Development Å¬·¡½ºÀÇ doJob ¸Ş¼Òµå È£Ãâ
+		emp1.doJob(); // Employeeì˜ doJob ë©”ì†Œë“œ ì¡´ì¬ í™•ì¸ í›„ Sales í´ë˜ìŠ¤ì˜ doJob ë©”ì†Œë“œ í˜¸ì¶œ
+		emp2.doJob(); // Development í´ë˜ìŠ¤ì˜ doJob ë©”ì†Œë“œ í˜¸ì¶œ
 	}
 }
-// Ãâ·Â °á°ú
+// ì¶œë ¥ ê²°ê³¼
 // Do sales
 // Do development

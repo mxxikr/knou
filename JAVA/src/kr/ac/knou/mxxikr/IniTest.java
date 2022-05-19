@@ -1,18 +1,18 @@
 package kr.ac.knou.mxxikr;
 
 class IniTest {
-	static int nValue = 1; // ÃÊ±â°ª ¼±¾ğÇÏÁö ¾ÊÀ»°æ¿ì 0À¸·Î ÀÚµ¿ ÃÊ±âÈ­
+	static int nValue = 1; // ì´ˆê¸°ê°’ ì„ ì–¸í•˜ì§€ ì•Šì„ê²½ìš° 0ìœ¼ë¡œ ìë™ ì´ˆê¸°í™”
 
 	{
-		nValue = 2; // Å¬·¡½º º¯¼ö ÃÊ±âÈ­ ºí·Ï
+		nValue = 2; // í´ë˜ìŠ¤ ë³€ìˆ˜ ì´ˆê¸°í™” ë¸”ë¡
 	}
 
 	public IniTest() {
-		nValue = 3; // ÃÊ±â°ª º¯°æ
+		nValue = 3; // ì´ˆê¸°ê°’ ë³€ê²½
 	}
 
 	public static void main(String[] args) {
-		IniTest n = new IniTest(); // »ı¼ºÀÚ È£ÃâÀ» ÅëÇØ ÃÊ±âÈ­ ½ÇÇà
-		System.out.println(IniTest.nValue); // »ı¼ºÀÚ¸¦ ÅëÇØ ÃÊ±âÈ­µÈ 3 Ãâ·Â
+		IniTest n = new IniTest(); // ìƒì„±ì í˜¸ì¶œì„ í†µí•´ ì´ˆê¸°í™” ì‹¤í–‰
+		System.out.println(IniTest.nValue); // ìƒì„±ìë¥¼ í†µí•´ ì´ˆê¸°í™”ëœ 3 ì¶œë ¥
 	}
 }

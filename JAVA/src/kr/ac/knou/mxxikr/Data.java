@@ -1,11 +1,11 @@
 package kr.ac.knou.mxxikr;
 
 class Data {
-	private Object object; // javaÀÇ Å¬·¡½º °èÃş ±¸Á¶¿¡¼­ °¡Àå »óÀ§ ±¸Á¶
+	private Object object; // javaì˜ í´ë˜ìŠ¤ ê³„ì¸µ êµ¬ì¡°ì—ì„œ ê°€ì¥ ìƒìœ„ êµ¬ì¡°
 
 	public void set(Object object) {
 		this.object = object;
-	} // µ¥ÀÌÅÍÇÊµå ¼¼ÆÃ
+	} // ë°ì´í„°í•„ë“œ ì„¸íŒ…
 
 	public Object get() {
 		return object;

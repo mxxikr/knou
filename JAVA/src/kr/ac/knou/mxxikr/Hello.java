@@ -1,7 +1,7 @@
 package kr.ac.knou.mxxikr;
 
-public class Hello { // Å¬·¡½º Á¤ÀÇ ºí·Ï
-	public static void main(String args[]) { // ÇÁ·Î±×·¥ ½ÇÇà½Ã main  ÇÔ¼ö ÇÊ¿ä
-		System.out.println("Hello, Java Application!"); // Ãâ·Â¹®
+public class Hello { // í´ë˜ìŠ¤ ì •ì˜ ë¸”ë¡
+	public static void main(String args[]) { // í”„ë¡œê·¸ë¨ ì‹¤í–‰ì‹œ main  í•¨ìˆ˜ í•„ìš”
+		System.out.println("Hello, Java Application!"); // ì¶œë ¥ë¬¸
 	}
 } 

@@ -3,10 +3,10 @@ package kr.ac.knou.mxxikr;
 public class ThisSuperTest {
 	public static void main(String args[]) {
 		CSub2 sub2 = new CSub2(10.0);
-		System.out.println(sub2.x); // CSub2 Å¬·¡½ºÀÇ µ¥ÀÌÅÍ ÇÊµå 10 Ãâ·Â
+		System.out.println(sub2.x); // CSub2 í´ë˜ìŠ¤ì˜ ë°ì´í„° í•„ë“œ 10 ì¶œë ¥
 	
-		System.out.println(sub2.getSuper()); // CSuper2 Å¬·¡½ºÀÇ µ¥ÀÌÅÍ ÇÊµå 100 Ãâ·Â
+		System.out.println(sub2.getSuper()); // CSuper2 í´ë˜ìŠ¤ì˜ ë°ì´í„° í•„ë“œ 100 ì¶œë ¥
  
-		System.out.println(sub2.getSub()); // CSub2 Å¬·¡½º¿¡¼­ ÀçÁ¤ÀÇ ÇÑ 10 Ãâ·Â
+		System.out.println(sub2.getSub()); // CSub2 í´ë˜ìŠ¤ì—ì„œ ì¬ì •ì˜ í•œ 10 ì¶œë ¥
 	}
 }

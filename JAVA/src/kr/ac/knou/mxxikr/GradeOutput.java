@@ -1,31 +1,31 @@
 package kr.ac.knou.mxxikr;
 
 class Grade {
-	int e; // ¿µ¾î ¼ºÀûÀ» À§ÇÑ ÇÊµå
-	int m; // ¼öÇĞ ¼ºÀûÀ» À§ÇÑ ÇÊµå
+	int e; // ì˜ì–´ ì„±ì ì„ ìœ„í•œ í•„ë“œ
+	int m; // ìˆ˜í•™ ì„±ì ì„ ìœ„í•œ í•„ë“œ
 
 	void input_grade(int a, int b) {
-		e = a; // ¿µ¾î ¼ºÀû ÀÔ·Â
-		m = b; // ¼öÇĞ ¼ºÀû ÀÔ·Â
+		e = a; // ì˜ì–´ ì„±ì  ì…ë ¥
+		m = b; // ìˆ˜í•™ ì„±ì  ì…ë ¥
 	}
 
 	void output_grade() {
-		// ÃÑÁ¡ Ãâ·Â ¸Ş¼Òµå
+		// ì´ì  ì¶œë ¥ ë©”ì†Œë“œ
 		System.out.println(e + m);
 	}
 }
 
 public class GradeOutput {
 	public static void main(String args[]) {
-		Grade g1, g2; // ¼ºÀûÀ» Ç¥ÇöÇÏ´Â °´Ã¼
+		Grade g1, g2; // ì„±ì ì„ í‘œí˜„í•˜ëŠ” ê°ì²´
 
-		g1 = new Grade(); // °´Ã¼ »ı¼º
+		g1 = new Grade(); // ê°ì²´ ìƒì„±
 		g2 = new Grade();
 
-		g1.input_grade(90, 85); // ¼ºÀû ÀÔ·Â
+		g1.input_grade(90, 85); // ì„±ì  ì…ë ¥
 		g2.input_grade(80, 80);
 
-		g1.output_grade(); // ÃÑÁ¡ Ãâ·Â
+		g1.output_grade(); // ì´ì  ì¶œë ¥
 		g2.output_grade();
 	}
 }

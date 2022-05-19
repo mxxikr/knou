@@ -12,5 +12,5 @@ public class AnonymousTest2 {
 		sub.method();
 	}
 }
-// Ãâ·Â °á°ú
+// ì¶œë ¥ ê²°ê³¼
 // sub1

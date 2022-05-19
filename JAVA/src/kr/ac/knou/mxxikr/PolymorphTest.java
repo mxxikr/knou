@@ -3,11 +3,11 @@ package kr.ac.knou.mxxikr;
 public class PolymorphTest {
 	public static void main(String args[]) {
 		A a = new B();
-		a.func(); // B Å¬·¡½ºÀÇ func ¸Ş¼Òµå È£Ãâ
+		a.func(); // B í´ë˜ìŠ¤ì˜ func ë©”ì†Œë“œ í˜¸ì¶œ
 		a = new C();
-		a.func(); // C Å¬·¡½ºÀÇ func ¸Ş¼Òµå È£Ãâ
+		a.func(); // C í´ë˜ìŠ¤ì˜ func ë©”ì†Œë“œ í˜¸ì¶œ
 	}
 }
-// Ãâ·Â °á°ú
+// ì¶œë ¥ ê²°ê³¼
 // b
 // c

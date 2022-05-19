@@ -1,22 +1,22 @@
 package kr.ac.knou.mxxikr;
 
-class CSuper2 { // ºÎ¸ğ Å¬·¡½º
+class CSuper2 { // ë¶€ëª¨ í´ë˜ìŠ¤
 	public double x;
 }
 
-class CSub2 extends CSuper2 { // ÀÚ½Ä Å¬·¡½º
+class CSub2 extends CSuper2 { // ìì‹ í´ë˜ìŠ¤
 	public double x;
 
-	public CSub2(double new_x) { // CSub2 »ı¼ºÀÚ
-		this.x = new_x; // ÀÚ½Ä Å¬·¡½ºÀÇ x ÇÊµå °ª ÁöÁ¤
-		super.x = new_x * 10; // ºÎ¸ğÅ¬·¡½ºÀÇ x ÇÊµå °ª ÁöÁ¤
+	public CSub2(double new_x) { // CSub2 ìƒì„±ì
+		this.x = new_x; // ìì‹ í´ë˜ìŠ¤ì˜ x í•„ë“œ ê°’ ì§€ì •
+		super.x = new_x * 10; // ë¶€ëª¨í´ë˜ìŠ¤ì˜ x í•„ë“œ ê°’ ì§€ì •
 	}
 	
 	public double getSuper() {
-		return super.x; // »ó¼Ó¹ŞÀº x ¸®ÅÏ
+		return super.x; // ìƒì†ë°›ì€ x ë¦¬í„´
 	}
 
 	public double getSub() {
-		return this.x; // ÀçÁ¤ÀÇÇÑ x ¸®ÅÏ
+		return this.x; // ì¬ì •ì˜í•œ x ë¦¬í„´
 	}
 }

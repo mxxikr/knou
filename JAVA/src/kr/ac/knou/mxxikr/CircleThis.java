@@ -1,20 +1,20 @@
 package kr.ac.knou.mxxikr;
 
 class CircleThis {
-	static double PI = 3.14; // Á¤Àû º¯¼ö, Å¬·¡½º º¯¼ö
+	static double PI = 3.14; // ì •ì  ë³€ìˆ˜, í´ë˜ìŠ¤ ë³€ìˆ˜
 	double radius = 2;
 
 	public double getArea() { 
-		return this.radius * this.radius * PI; // c1.radius È£Ãâ ½Ã this°ªÀº c1°ªÀ» °¡Áö°Ô µÊ
+		return this.radius * this.radius * PI; // c1.radius í˜¸ì¶œ ì‹œ thisê°’ì€ c1ê°’ì„ ê°€ì§€ê²Œ ë¨
 	}
 	public void display() {
-		System.out.println("¹İÁö¸§:" + this.radius + " ¸éÀû:" + this.getArea()+ " this:" +this);
+		System.out.println("ë°˜ì§€ë¦„:" + this.radius + " ë©´ì :" + this.getArea()+ " this:" +this);
 	}
 	
 	public static void main(String args[]) {
 		CircleThis c1 = new CircleThis();
 		CircleThis c2 = new CircleThis();
-		c1.display(); // ¹İÁö¸§:2.0 ¸éÀû:12.56 this:kr.ac.knou.mxxikr.CircleThis@76ccd017
-		c2.display(); // ¹İÁö¸§:2.0 ¸éÀû:12.56 this:kr.ac.knou.mxxikr.CircleThis@182decdb
+		c1.display(); // ë°˜ì§€ë¦„:2.0 ë©´ì :12.56 this:kr.ac.knou.mxxikr.CircleThis@76ccd017
+		c2.display(); // ë°˜ì§€ë¦„:2.0 ë©´ì :12.56 this:kr.ac.knou.mxxikr.CircleThis@182decdb
 	}
 }

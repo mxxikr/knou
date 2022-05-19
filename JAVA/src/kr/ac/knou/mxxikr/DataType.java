@@ -5,7 +5,7 @@ class Circle {
 }
 
 class Literal {
-	final static int nConst = 3; // ¼±¾ð½Ã ÃÊ±â °ª ÁöÁ¤
+	final static int nConst = 3; // ì„ ì–¸ì‹œ ì´ˆê¸° ê°’ ì§€ì •
 }
 
 public class DataType {

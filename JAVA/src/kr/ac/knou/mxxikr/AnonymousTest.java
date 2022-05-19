@@ -2,7 +2,7 @@ package kr.ac.knou.mxxikr;
 
 public class AnonymousTest {
 	public static void main(String args[]) {
-		AnonymousSuper sub = new AnonymousSuper() { // AnonymousSuper¸¦ »ó¼Ó ¹Ş´Â ÀÍ¸í Å¬·¡½º Á¤ÀÇ ÈÄ °´Ã¼ »ı¼º
+		AnonymousSuper sub = new AnonymousSuper() { // AnonymousSuperë¥¼ ìƒì† ë°›ëŠ” ìµëª… í´ë˜ìŠ¤ ì •ì˜ í›„ ê°ì²´ ìƒì„±
 
 			public int a = 20;
 
@@ -15,8 +15,8 @@ public class AnonymousTest {
 			}
 		};
 
-		sub.method1(); // AnonymousSuper¸¦ »ó¼Ó ¹Ş´Â ÇÏÀ§ Å¬·¡½ºÀÇ °´Ã¼¸¦ °¡¸®Å´
-		sub.method2(); // AnonymousSuper¸¦ »ó¼Ó ¹Ş´Â ÇÏÀ§ Å¬·¡½ºÀÇ °´Ã¼¿¡ method2°¡ ¾ø¾î ºÎ¸ğ Å¬·¡½º¿¡¼­ È£Ãâ
-		System.out.println(sub.a); // subÀÇ ¼±¾ğ À¯ÇüÀÎ AnonymousSuper¿¡¼­ µ¥ÀÌÅÍ ÇÊµå È£Ãâ
+		sub.method1(); // AnonymousSuperë¥¼ ìƒì† ë°›ëŠ” í•˜ìœ„ í´ë˜ìŠ¤ì˜ ê°ì²´ë¥¼ ê°€ë¦¬í‚´
+		sub.method2(); // AnonymousSuperë¥¼ ìƒì† ë°›ëŠ” í•˜ìœ„ í´ë˜ìŠ¤ì˜ ê°ì²´ì— method2ê°€ ì—†ì–´ ë¶€ëª¨ í´ë˜ìŠ¤ì—ì„œ í˜¸ì¶œ
+		System.out.println(sub.a); // subì˜ ì„ ì–¸ ìœ í˜•ì¸ AnonymousSuperì—ì„œ ë°ì´í„° í•„ë“œ í˜¸ì¶œ
 	}
 }

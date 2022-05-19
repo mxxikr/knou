@@ -2,16 +2,16 @@ package kr.ac.knou.mxxikr;
 
 public class CircleArea2 {
 	public static void main(String args[]) {
-		CircleCalc2 c1 = new CircleCalc2(5.0); // »ı¼ºÀÚ È£Ãâ
-		CircleCalc2 c2 = new CircleCalc2(4.0); // »ı¼ºÀÚ È£Ãâ
+		CircleCalc2 c1 = new CircleCalc2(5.0); // ìƒì„±ì í˜¸ì¶œ
+		CircleCalc2 c2 = new CircleCalc2(4.0); // ìƒì„±ì í˜¸ì¶œ
 		
-		System.out.println(c1.r); // r¿¡ Á¢±ÙÁ¦¾îÀÚ°¡ Á¸ÀçÇÏÁö¾Ê¾Æ °°Àº ÆĞÅ°ÁöÀÇ ´Ù¸¥ Å¬·¡½º¿¡¼­ »ç¿ë °¡´É
+		System.out.println(c1.r); // rì— ì ‘ê·¼ì œì–´ìê°€ ì¡´ì¬í•˜ì§€ì•Šì•„ ê°™ì€ íŒ¨í‚¤ì§€ì˜ ë‹¤ë¥¸ í´ë˜ìŠ¤ì—ì„œ ì‚¬ìš© ê°€ëŠ¥
 		System.out.println(c1.getArea());
 		System.out.println(c1.count);
 		
-		c2.r = 6; // cÀÇ rÀ» º¯°æ, °´Ã¼ »ç¿ë
+		c2.r = 6; // cì˜ rì„ ë³€ê²½, ê°ì²´ ì‚¬ìš©
 		System.out.println(c2.r);
-		System.out.println(c2.getArea()); // c¿¡°Ô getArea() ½ÇÇàÀ» ¿äÃ»
+		System.out.println(c2.getArea()); // cì—ê²Œ getArea() ì‹¤í–‰ì„ ìš”ì²­
 		System.out.println(c2.count);
 	}
 

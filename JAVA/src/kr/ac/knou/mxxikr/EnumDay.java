@@ -3,7 +3,7 @@ package kr.ac.knou.mxxikr;
 
 
 public class EnumDay {
-	enum Day { // Enum À¯Çü Day
+	enum Day { // Enum ìœ í˜• Day
 		SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
 	}
 	
@@ -12,7 +12,7 @@ public class EnumDay {
 		System.out.println(day);
 
 		for (Day d : Day.values( )) {
-			System.out.println(d); // °¢ ¿ø¼Ò Ãâ·Â
+			System.out.println(d); // ê° ì›ì†Œ ì¶œë ¥
 		}
 	}
 }

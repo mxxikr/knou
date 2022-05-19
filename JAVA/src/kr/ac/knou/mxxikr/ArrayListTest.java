@@ -5,20 +5,20 @@ import java.util.List;
 
 class ArrayListTest {
 	public static void main(String args[]) {
-		List list1 = new ArrayList(); // Object À¯Çü
+		List list1 = new ArrayList(); // Object ìœ í˜•
 		
-		list1.add("hello"); // hello ¹®ÀÚ¿­ÀÌ object À¯ÇüÀ¸·Î Çüº¯È¯ µÇ¾î Ãß°¡
+		list1.add("hello"); // hello ë¬¸ìì—´ì´ object ìœ í˜•ìœ¼ë¡œ í˜•ë³€í™˜ ë˜ì–´ ì¶”ê°€
 		System.out.println(list1);
 		
-		String s1 = (String) list1.get(0); // object À¯ÇüÀ¸·Î ¹İÈ¯ µÇ¾î °­Á¦ Çüº¯È¯(´Ù¿îÄ³½ºÆÃ) ÇÊ¿ä
+		String s1 = (String) list1.get(0); // object ìœ í˜•ìœ¼ë¡œ ë°˜í™˜ ë˜ì–´ ê°•ì œ í˜•ë³€í™˜(ë‹¤ìš´ìºìŠ¤íŒ…) í•„ìš”
 		System.out.println(s1);
 
-		List<String> list2 = new ArrayList<String>(); // Å¸ÀÔ ¸í½Ã
+		List<String> list2 = new ArrayList<String>(); // íƒ€ì… ëª…ì‹œ
 		
 		list2.add("hello");
 		System.out.println(list2);
 		
-		String s2 = list2.get(0); // Çüº¯È¯ÀÌ ÇÊ¿ä ¾øÀ½
+		String s2 = list2.get(0); // í˜•ë³€í™˜ì´ í•„ìš” ì—†ìŒ
 		System.out.println(s2);
 	}
 }

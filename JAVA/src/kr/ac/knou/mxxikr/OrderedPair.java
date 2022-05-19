@@ -1,11 +1,11 @@
 package kr.ac.knou.mxxikr;
 
-interface Pair<K, V> { // Å¸ÀÔ ¸Å°³º¯¼ö 2°³ Á¸Àç
+interface Pair<K, V> { // íƒ€ì… ë§¤ê°œë³€ìˆ˜ 2ê°œ ì¡´ì¬
 	public K getKey();
 	public V getValue();
 }
 
-class OrderedPair <K, V> implements Pair <K, V> { // Á¦³×¸¯ Å¬·¡½º Á¤ÀÇ
+class OrderedPair <K, V> implements Pair <K, V> { // ì œë„¤ë¦­ í´ë˜ìŠ¤ ì •ì˜
 	private K key;
 	private V value;
 

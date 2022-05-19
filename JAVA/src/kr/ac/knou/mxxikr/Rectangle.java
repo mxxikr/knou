@@ -3,15 +3,15 @@ package kr.ac.knou.mxxikr;
 import java.awt.Point;
 
 class Rectangle {
-	public int width = 0; // non-static º¯¼ö ÃÊ±âÈ­
+	public int width = 0; // non-static ë³€ìˆ˜ ì´ˆê¸°í™”
 	public int height = 0;
-	public Point origin; // Point Å¬·¡½º : ÁÂÇ¥»óÀÇ ¾î¶² À§Ä¡¸¦ ³ªÅ¸³»´Âµ¥ »ç¿ëÇÏ´Â Å¬·¡½º
+	public Point origin; // Point í´ë˜ìŠ¤ : ì¢Œí‘œìƒì˜ ì–´ë–¤ ìœ„ì¹˜ë¥¼ ë‚˜íƒ€ë‚´ëŠ”ë° ì‚¬ìš©í•˜ëŠ” í´ë˜ìŠ¤
 
 	public Rectangle() {
 		origin = new Point(0,0);
 	}
 
-	public Rectangle(Point p, int w, int h) { // »ı¼ºÀÚ¸¦ »ç¿ëÇØ µ¥ÀÌÅÍ ÇÊµå ÃÊ±âÈ­
+	public Rectangle(Point p, int w, int h) { // ìƒì„±ìë¥¼ ì‚¬ìš©í•´ ë°ì´í„° í•„ë“œ ì´ˆê¸°í™”
 		origin = p;
 		width = w;
 		height = h;

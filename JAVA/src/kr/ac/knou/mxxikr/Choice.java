@@ -7,24 +7,24 @@ public class Choice {
 
 		int n = 20;
 
-		// if-else¹®
+		// if-elseë¬¸
 		if (a == 1)
 			if (b == 2)
 				System.out.println("a was 1 and b was 2.");
-			else // if (b == 2)¿Í Â¦Áö¾îÁø else¹®
+			else // if (b == 2)ì™€ ì§ì§€ì–´ì§„ elseë¬¸
 				System.out.println("a wasn't 1.");
 
-		// switch¹®
+		// switchë¬¸
 		switch (n) {
 		case 10:
-			System.out.println("10ÀÔ´Ï´Ù.");
+			System.out.println("10ì…ë‹ˆë‹¤.");
 			break;
 		case 20:
 		case 30:
-			System.out.println("20ÀÌ°Å³ª 30ÀÔ´Ï´Ù.");
+			System.out.println("20ì´ê±°ë‚˜ 30ì…ë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("¸ğ¸£°Ú½À´Ï´Ù.");
+			System.out.println("ëª¨ë¥´ê² ìŠµë‹ˆë‹¤.");
 			break;
 		}
 	}
