@@ -1,5 +1,16 @@
 #include <iostream>
 
+namespace NameSpace1 { // 명칭 공간의 이름 : NameSpace1
+	int d = 10; // 명칭을 선언하는 문장 나열
+}
+namespace NameSpace2 { 
+	int d = 20; 
+}
+int d = 30;
+namespace NameSpace1 {
+	int e = 50;
+}
+
 int main() // 머리부
 { // 몸체 블록
 	std::cout << "나의 첫번째 c++ 프로그램" << std::endl; // 표준 출력 스트림으로 문장을 출력함
@@ -34,7 +45,14 @@ int main() // 머리부
 	int c;
 	char str[100];
 	std::cin >> c >> str;
-	std::cout << c << str;
+	std::cout << c << str << std::endl;
 
-	return 0;
+	/* 명칭 공간 
+	   변수 출력 */
+	int d = 40;
+	std::cout << NameSpace1::d << std::endl; // 명칭공간 외부에서는 소속 명칭공간 지정해 사용
+	std::cout << NameSpace2::d << std::endl;
+	std::cout << ::d << std::endl;
+	std::cout << d << std::endl;
+	std::cout << NameSpace1::e << std::endl;
 }
