@@ -20,6 +20,7 @@ local.properties
 .log
 .idea
 .classpath
+*.iml
 
 # External tool builders
 .externalToolBuilders/
