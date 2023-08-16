@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std; // 특정 명칭공간이나 명칭공간 내의 특정 이름을 자주 사용하는 경우 명칭공간 지정 간소화 가능
+
 namespace NameSpace1 { // 명칭 공간의 이름 : NameSpace1
 	int d = 10; // 명칭을 선언하는 문장 나열
 }
@@ -55,4 +57,8 @@ int main() // 머리부
 	std::cout << ::d << std::endl;
 	std::cout << d << std::endl;
 	std::cout << NameSpace1::e << std::endl;
+
+	cout << "Hello C world!" // using 이용한 std 명칭공간 간소화 사용
+		 << endl;
+	return 0;
 }
