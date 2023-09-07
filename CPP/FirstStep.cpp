@@ -5,8 +5,8 @@ using namespace std; // 특정 명칭공간이나 명칭공간 내의 특정 이름을 자주 사용하�
 namespace NameSpace1 { // 명칭 공간의 이름 : NameSpace1
 	int d = 10; // 명칭을 선언하는 문장 나열
 }
-namespace NameSpace2 { 
-	int d = 20; 
+namespace NameSpace2 {
+	int d = 20;
 }
 int d = 30;
 namespace NameSpace1 {
@@ -21,8 +21,8 @@ int main() // 머리부
 	 더 큰 값을 출력한다. */
 	int a = 10;
 	int b = 50;
-	if (a > b) { 
-		std::cout << a << std::endl; 
+	if (a > b) {
+		std::cout << a << std::endl;
 	}
 	else {
 		std::cout << b << std::endl;
@@ -33,7 +33,7 @@ int main() // 머리부
 	std::cout << "입력값 a * a = " << aSquare << std::endl;
 
 	/*
-		a가 b보다 작을 경우 
+		a가 b보다 작을 경우
 		a와 b 값 변환한다. */
 
 	if (a < b) {
@@ -49,7 +49,7 @@ int main() // 머리부
 	std::cin >> c >> str;
 	std::cout << c << str << std::endl;
 
-	/* 명칭 공간 
+	/* 명칭 공간
 	   변수 출력 */
 	int d = 40;
 	std::cout << NameSpace1::d << std::endl; // 명칭공간 외부에서는 소속 명칭공간 지정해 사용
@@ -59,6 +59,6 @@ int main() // 머리부
 	std::cout << NameSpace1::e << std::endl;
 
 	cout << "Hello C world!" // using 이용한 std 명칭공간 간소화 사용
-		 << endl;
+		<< endl;
 	return 0;
 }
