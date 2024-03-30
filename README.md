@@ -1,7 +1,7 @@
-# 📂CPP
+# 📂 CPP
 방송통신대학교 C++ 프로그래밍 강의 실습 코드 정리
 
-### 📝강의 목차
+### 📝 Curriculum
 * [C++ 언어의 소개](https://mxxikr.github.io/posts/knou-cpp-1/)
 * [C++ 언어의 기초](https://mxxikr.github.io/posts/knou-cpp-2/)   
 * 함수
@@ -14,10 +14,10 @@
 
 </br>
 
-# 📂JAVA
+# 📂 JAVA
 방송통신대학교 JAVA 프로그래밍 강의 실습 코드 정리
 
-### 📝강의 목차
+### 📝 Curriculum
 * [JAVA와 객체 지향 프로그래밍](https://mxxikr.github.io/posts/knou-java-1/)
 * [JAVA 기본 문법(1)](https://mxxikr.github.io/posts/knou-java-2/)
 * [JAVA 기본 문법(2)](https://mxxikr.github.io/posts/knou-java-3/)
